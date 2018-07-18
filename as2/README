@@ -1,0 +1,11 @@
+All required threads implemented:
+	- Sorter sorting array 
+	- Array size resetting every second
+	- Arrays sorted last second display on 14 seg display
+	- Server listening to UDP packets
+
+PROBLEMS FOUND:
+	1. missing 1 number when print array using netcat
+	2. mount over ethernet. ethernet has MTU limit, need to break packets down in the code
+
+noworky.c bug is fixed.
